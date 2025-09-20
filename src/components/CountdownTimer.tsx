@@ -25,7 +25,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ initialSeconds = 30, on
     <div className="flex flex-col items-center justify-center w-full py-2 md:py-4">
       <span className="text-lg md:text-2xl font-medium text-gray-700 mb-2">Time Left</span>
       <span
-        className={
+        className={                   
           `text-5xl md:text-7xl font-extrabold text-blue-600 transition-all duration-300 ` +
           (seconds <= 5 ? 'animate-pulse text-red-500' : '')
         }
@@ -35,5 +35,5 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ initialSeconds = 30, on
     </div>
   );
 };
-
-export default CountdownTimer; 
+                                   
+export default CountdownTimer;                       
