@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface GameResultProps {
-  resultColor: string; // e.g. 'red', 'green', 'blue', 'yellow'
+  resultColor: string; 
   didWin: boolean;
 }
 
@@ -10,8 +10,8 @@ const colorMap: Record<string, string> = {
   green: 'bg-green-500',
   blue: 'bg-blue-500',
   yellow: 'bg-yellow-400',
-};
-
+};   
+                         
 const GameResult: React.FC<GameResultProps> = ({ resultColor, didWin }) => {
   return (
     <div
