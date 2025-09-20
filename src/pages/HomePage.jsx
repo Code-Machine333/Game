@@ -21,7 +21,10 @@ export default function HomePage() {
         <img src={require('../assets/react.svg').default} alt="Game Logo" className="w-20 h-20 mb-2" />
         <h1 className="text-3xl font-bold text-gray-800">Color Prediction Game</h1>
       </header>
-
+   <div className="flex flex-col items-center justify-center min-h-screen">
+      <h1 className="text-3xl font-bold mb-4">History Page</h1>
+      <p className="text-gray-600">This is a placeholder for the history screen.</p>
+    </div>
       {/* Game Card */}
       <div className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md flex flex-col items-center">
         {/* Color Selection */}
