@@ -13,7 +13,7 @@ const COLORS = [
 ];
 
 type GameResultType = { color: string; didWin: boolean };
-
+                                                                         
 export default function GameScreen() {
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
   const [timer, setTimer] = useState(30);
@@ -37,7 +37,7 @@ export default function GameScreen() {
     setResult(null);
     setTimer(30);
   };
-
+                                                                      
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <GameHeader />
@@ -77,4 +77,4 @@ export default function GameScreen() {
       </main>
     </div>
   );
-} 
+}                                                  
